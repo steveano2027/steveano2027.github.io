@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steve Ano | MCA Busali Ward 2027 | UDA</title>
+<meta name="description" content="Steve Ano, MCA Aspirant Busali Ward 2027. Leadership • Integrity • Development. Vote Busali First 2027.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+:root {
+  --uda-yellow: #F4C542;
+  --uda-green: #1B5E20;
+  --uda-dark: #0D3A1A;
+  --charcoal: #333;
+  --white: #fff;
+  --light-gray: #f9f9f9;
+  --border-color: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+  color: var(--charcoal);
+  line-height: 1.6;
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-dark) 100%);
+  color: var(--white);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav .logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--uda-yellow);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--uda-yellow);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-dark) 100%);
+  color: var(--white);
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="1200" height="600" fill="%231B5E20"/><rect width="1200" height="600" fill="url(%23grid)"/></svg>');
+  opacity: 0.3;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  border: 5px solid var(--uda-yellow);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero .position {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  opacity: 0.95;
+}
+
+.hero .tagline {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 20px 0;
+  color: var(--uda-yellow);
+}
+
+.hero .slogan {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 40px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.btn-yellow {
+  background: var(--uda-yellow);
+  color: var(--charcoal);
+}
+
+.btn-yellow:hover {
+  background: #f0b92a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(244, 197, 66, 0.4);
+}
+
+.btn-green {
+  background: var(--uda-green);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.btn-green:hover {
+  background: var(--uda-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(27, 94, 32, 0.4);
+}
+
+.btn-white {
+  background: var(--white);
+  color: var(--uda-green);
+  border: 2px solid var(--white);
+}
+
+.btn-white:hover {
+  background: var(--light-gray);
+  transform: translateY(-2px);
+}
+
+/* COUNTDOWN */
+.countdown {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.countdown h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.countdown-timer {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--uda-yellow);
+}
+
+/* SECTION STYLES */
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  color: var(--uda-green);
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: var(--uda-yellow);
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ABOUT SECTION */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text h3 {
+  color: var(--uda-green);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* AGENDA GRID */
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.agenda-card {
+  background: var(--light-gray);
+  border-radius: 12px;
+  padding: 30px 25px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.agenda-card:hover {
+  border-color: var(--uda-yellow);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(244, 197, 66, 0.2);
+}
+
+.agenda-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.agenda-card h3 {
+  color: var(--uda-green);
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.agenda-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.learn-more {
+  margin-top: 15px;
+  display: inline-block;
+  color: var(--uda-green);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.learn-more:hover {
+  color: var(--uda-yellow);
+}
+
+/* PROGRESS SECTION */
+.progress-container {
+  margin-top: 40px;
+}
+
+.progress-item {
+  margin-bottom: 30px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.progress-bar {
+  background: #e0e0e0;
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, var(--uda-yellow) 0%, var(--uda-green) 100%);
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: var(--charcoal);
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition: width 0.5s ease;
+}
+
+/* NEWS SECTION */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.news-card {
+  background: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.news-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-yellow) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-date {
+  color: var(--uda-green);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.news-card h3 {
+  color: var(--charcoal);
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.news-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* GALLERY SECTION */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.gallery-item {
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-yellow) 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/* TESTIMONIALS */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  background: var(--light-gray);
+  padding: 30px;
+  border-radius: 12px;
+  border-left: 5px solid var(--uda-yellow);
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  color: var(--uda-green);
+}
+
+/* VOLUNTEER FORM */
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: var(--light-gray);
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--uda-green);
+  box-shadow: 0 0 0 3px rgba(27, 94, 32, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-dark) 100%);
+  color: var(--white);
+  padding: 50px 20px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-section h3 {
+  color: var(--uda-yellow);
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: var(--uda-yellow);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+}
+
+.social-links a:hover {
+  background: var(--uda-yellow);
+  color: var(--uda-green);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 998;
+  transition: all 0.3s;
+}
+
+.whatsapp-float:hover {
+  background: #1FAC4D;
+  transform: scale(1.1);
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--charcoal);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav ul {
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: var(--uda-green);
+    flex-direction: column;
+    gap: 0;
+    padding: 15px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav a {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .tagline {
+    font-size: 1.2rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .countdown-timer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  section h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* LANGUAGE SELECTOR */
+.language-selector {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.language-selector select {
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--uda-green);
+  font-weight: 600;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="logo">🟢 Team Ano</div>
+  <button class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </button>
+  <ul id="navMenu">
+    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+    <li><a href="#about" onclick="closeMenu()">About Steve</a></li>
+    <li><a href="#agenda" onclick="closeMenu()">Manifesto</a></li>
+    <li><a href="#progress" onclick="closeMenu()">Projects</a></li>
+    <li><a href="#news" onclick="closeMenu()">News</a></li>
+    <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+    <li><a href="#volunteer" onclick="closeMenu()">Volunteer</a></li>
+    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- LANGUAGE SELECTOR -->
+<div class="language-selector">
+  <select onchange="changeLanguage(this.value)">
+    <option value="en">English</option>
+    <option value="sw">Kiswahili</option>
+  </select>
+</div>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-image">👨‍💼</div>
+    <h1>Steve Ano</h1>
+    <p class="position">MCA Aspirant, Busali Ward | UDA 2027</p>
+    <p class="tagline">Leadership • Integrity • Development</p>
+    <p class="slogan">"Busali First. Together We Build Our Future."</p>
+    
+    <div class="countdown">
+      <h3>Election Day Countdown</h3>
+      <div class="countdown-timer" id="countdown">420 Days</div>
+    </div>
+
+    <div class="hero-buttons">
+      <a href="#volunteer" class="btn btn-yellow">
+        <i class="fas fa-heart"></i> Donate
+      </a>
+      <a href="#volunteer" class="btn btn-green">
+        <i class="fas fa-hands-helping"></i> Volunteer
+      </a>
+      <a href="#contact" class="btn btn-white">
+        <i class="fas fa-phone"></i> Contact Steve
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+  <h2>About Steve Ano</h2>
+  <p class="section-subtitle">A dedicated community leader committed to transforming Busali</p>
+  
+  <div class="about-content">
+    <div class="about-text">
+      <h3>Who is Steve Ano?</h3>
+      <p>Steve Ano is a lifelong Busali resident and community organizer with 10+ years of experience working with youth, farmers, and small business owners.</p>
+      <p>He has led successful initiatives in skill training, cooperative management, and community development. Steve believes that good governance starts with listening to the people.</p>
+      <p><strong>Why Steve?</strong> Because Busali deserves a leader who walks with them, not above them. Steve's track record speaks for itself.</p>
+      <p style="margin-top: 20px;">
+        <a href="https://wa.me/2547XXXXXXXX?text=Tell%20me%20more%20about%20Steve%20Ano" class="btn btn-green" style="display: inline-block;">
+          <i class="fas fa-whatsapp"></i> Learn More
+        </a>
+      </p>
+    </div>
+    <div style="background: linear-gradient(135deg, var(--uda-green) 0%, var(--uda-yellow) 100%); border-radius: 12px; height: 400px; display: flex; align-items: center; justify-content: center; font-size: 5rem; color: var(--white);">
+      📸
+    </div>
+  </div>
+</section>
+
+<!-- MANIFESTO / AGENDA SECTION -->
+<section id="agenda">
+  <h2>Steve's 6-Point Manifesto</h2>
+  <p class="section-subtitle">Real solutions for real problems. Click each card to learn more.</p>
+  
+  <div class="agenda-grid">
+    <div class="agenda-card" onclick="openModal('youth')">
+      <div class="agenda-icon">🏆</div>
+      <h3>Youth Empowerment & Jobs</h3>
+      <p>Skills training, job links, and business support for every young Busali resident.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('youth')">Learn More →</a>
+    </div>
+
+    <div class="agenda-card" onclick="openModal('women')">
+      <div class="agenda-icon">👩</div>
+      <h3>Women Empowerment</h3>
+      <p>Market infrastructure, table banking, bursaries, and government tenders priority.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('women')">Learn More →</a>
+    </div>
+
+    <div class="agenda-card" onclick="openModal('agribusiness')">
+      <div class="agenda-icon">🌽</div>
+      <h3>Agribusiness & Farmers</h3>
+      <p>Subsidized inputs, aggregation centers, training, and cold room facilities.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('agribusiness')">Learn More →</a>
+    </div>
+
+    <div class="agenda-card" onclick="openModal('education')">
+      <div class="agenda-icon">🎓</div>
+      <h3>Quality Education</h3>
+      <p>Transparent bursaries, ECD upgrades, desks, books, and feeding programs.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('education')">Learn More →</a>
+    </div>
+
+    <div class="agenda-card" onclick="openModal('healthcare')">
+      <div class="agenda-icon">🏥</div>
+      <h3>Affordable Healthcare</h3>
+      <p>Drug supply, maternity beds, NHIF drives, and community health worker support.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('healthcare')">Learn More →</a>
+    </div>
+
+    <div class="agenda-card" onclick="openModal('infrastructure')">
+      <div class="agenda-icon">🚜</div>
+      <h3>Roads & Water Access</h3>
+      <p>Year-round road maintenance, boreholes, rainwater tanks, and infrastructure.</p>
+      <a href="#" class="learn-more" onclick="event.preventDefault(); openModal('infrastructure')">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESS TRACKER SECTION -->
+<section id="progress">
+  <h2>Campaign Priorities Progress</h2>
+  <p class="section-subtitle">Tracking our progress toward a better Busali</p>
+  
+  <div class="progress-container">
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Roads & Infrastructure</span>
+        <span>70%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 70%;">70%</div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Youth & Skills Programs</span>
+        <span>60%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 60%;">60%</div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Water & Sanitation</span>
+        <span>45%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 45%;">45%</div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Healthcare & NHIF</span>
+        <span>40%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 40%;">40%</div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Education & Bursaries</span>
+        <span>55%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 55%;">55%</div>
+      </div>
+    </div>
+
+    <div class="progress-item">
+      <div class="progress-label">
+        <span>Women & Market Development</span>
+        <span>50%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 50%;">50%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS SECTION -->
+<section id="news">
+  <h2>Latest Campaign Updates</h2>
+  <p class="section-subtitle">Stay updated on Steve's work in Busali</p>
+  
+  <div class="news-grid">
+    <div class="news-card">
+      <div class="news-image">🏪</div>
+      <div class="news-content">
+        <div class="news-date">June 15, 2027</div>
+        <h3>Steve Visits Busali Market</h3>
+        <p>Engaged with over 200 traders about stall upgrades, electricity, and water access. Committed to implement solutions within 6 months.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-image">🌱</div>
+      <div class="news-content">
+        <div class="news-date">June 10, 2027</div>
+        <h3>Tree Planting Exercise</h3>
+        <p>1,000 trees planted by Team Ano in partnership with the Environment Ministry. Green Busali initiative launched.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-image">⚽</div>
+      <div class="news-content">
+        <div class="news-date">June 5, 2027</div>
+        <h3>Youth Football Tournament</h3>
+        <p>Steve sponsored a football tournament bringing together 20 youth teams. Fostering unity and sportsmanship across Busali.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-image">👩‍👧</div>
+      <div class="news-content">
+        <div class="news-date">May 28, 2027</div>
+        <h3>Women's Empowerment Meeting</h3>
+        <p>400+ women gathered to discuss market challenges. Table banking SACCO model discussed and approved for pilot phase.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-image">🏥</div>
+      <div class="news-content">
+        <div class="news-date">May 20, 2027</div>
+        <h3>Free Healthcare & NHIF Drive</h3>
+        <p>1,500 residents registered for NHIF. Partnership with Busali Health Center for weekly free clinics established.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-image">🛣️</div>
+      <div class="news-content">
+        <div class="news-date">May 15, 2027</div>
+        <h3>Road Inspection Tour</h3>
+        <p>Steve inspected all feeder roads. Prioritized 5 roads for immediate rehabilitation. Contractor hiring to start June 1st.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY SECTION -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p class="section-subtitle">Photos from Steve's work in Busali communities</p>
+  
+  <div class="gallery-grid">
+    <div class="gallery-item">📸 Meeting Residents</div>
+    <div class="gallery-item">⛪ Church Visits</div>
+    <div class="gallery-item">👩 Women's Groups</div>
+    <div class="gallery-item">🧑‍💼 Youth Programs</div>
+    <div class="gallery-item">🚜 Farmers Training</div>
+    <div class="gallery-item">🏫 School Inspections</div>
+    <div class="gallery-item">🛣️ Road Projects</div>
+    <div class="gallery-item">💧 Water Initiatives</div>
+    <div class="gallery-item">🤝 Community Events</div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section>
+  <h2>What Busali Is Saying</h2>
+  <p class="section-subtitle">Real voices from Busali residents</p>
+  
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="testimonial-text">"Steve listens. He came to our women's group and didn't just make promises—he documented our problems and came back with solutions."</div>
+      <div class="testimonial-author">— Mary Kiplagat, Trader</div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-text">"He helped us register 50 youth for welding training. My son now has a paying job. This is real change."</div>
+      <div class="testimonial-author">— John Kariuki, Teacher</div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-text">"As a farmer, I've seen Steve push for input subsidies and market access. He's not just talking—he's delivering results."</div>
+      <div class="testimonial-author">— Samuel Kipchoge, Farmer</div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-text">"Steve's vision for Busali is clear. He wants roads fixed, water flowing, and our children in school. We believe in him."</div>
+      <div class="testimonial-author">— Grace Mwangi, Community Health Volunteer</div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER SIGNUP -->
+<section style="background: var(--light-gray); border-radius: 12px;">
+  <h2>Stay Updated</h2>
+  <p class="section-subtitle">Get the latest news and updates from Team Ano</p>
+  
+  <div class="form-container">
+    <form onsubmit="subscribeNewsletter(event)">
+      <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
+      </div>
+
+      <div class="form-group">
+        <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+254 7XX XXX XXX">
+      </div>
+
+      <div class="form-group">
+        <label for="village"><i class="fas fa-map-marker-alt"></i> Village</label>
+        <select id="village" name="village" required>
+          <option value="">Select your village</option>
+          <option value="Busali Center">Busali Center</option>
+          <option value="Kimaeti">Kimaeti</option>
+          <option value="Kiburi">Kiburi</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-green" style="width: 100%;">
+        <i class="fas fa-bell"></i> Subscribe Now
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- VOLUNTEER SECTION -->
+<section id="volunteer">
+  <h2>Join Team Ano 2027</h2>
+  <p class="section-subtitle">Be part of the movement to transform Busali</p>
+  
+  <div class="form-container">
+    <form onsubmit="submitVolunteer(event)">
+      <div class="form-group">
+        <label for="vol-name"><i class="fas fa-user"></i> Full Name</label>
+        <input type="text" id="vol-name" name="name" required placeholder="Your name">
+      </div>
+
+      <div class="form-group">
+        <label for="vol-phone"><i class="fas fa-phone"></i> Phone Number</label>
+        <input type="tel" id="vol-phone" name="phone" required placeholder="+254 7XX XXX XXX">
+      </div>
+
+      <div class="form-group">
+        <label for="vol-village"><i class="fas fa-map-marker-alt"></i> Village</label>
+        <select id="vol-village" name="village" required>
+          <option value="">Select your village</option>
+          <option value="Busali Center">Busali Center</option>
+          <option value="Kimaeti">Kimaeti</option>
+          <option value="Kiburi">Kiburi</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="vol-occupation"><i class="fas fa-briefcase"></i> Occupation</label>
+        <input type="text" id="vol-occupation" name="occupation" placeholder="Your job/trade">
+      </div>
+
+      <div class="form-group">
+        <label for="vol-help"><i class="fas fa-hands-helping"></i> How Can You Help?</label>
+        <textarea id="vol-help" name="help" placeholder="E.g., I can help mobilize youth, organize community meetings, etc."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-green" style="width: 100%;">
+        <i class="fas fa-check"></i> Join Team Ano
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- REPORT ISSUE SECTION -->
+<section style="background: var(--light-gray); border-radius: 12px;">
+  <h2>Report a Problem</h2>
+  <p class="section-subtitle">Help Steve prioritize community issues</p>
+  
+  <div class="form-container">
+    <form onsubmit="submitReport(event)">
+      <div class="form-group">
+        <label for="issue-type"><i class="fas fa-exclamation-triangle"></i> Issue Type</label>
+        <select id="issue-type" name="type" required>
+          <option value="">Select issue type</option>
+          <option value="Broken Roads">Broken Roads</option>
+          <option value="Water Shortage">Water Shortage</option>
+          <option value="Illegal Dumping">Illegal Dumping</option>
+          <option value="Corruption">Corruption Report</option>
+          <option value="Healthcare">Healthcare Problem</option>
+          <option value="School Issue">School Issue</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="issue-desc"><i class="fas fa-pen"></i> Description</label>
+        <textarea id="issue-desc" name="description" required placeholder="Describe the problem in detail..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="issue-location"><i class="fas fa-map-marker-alt"></i> Location</label>
+        <input type="text" id="issue-location" name="location" placeholder="Where is this problem?" required>
+      </div>
+
+      <div class="form-group">
+        <label for="issue-name"><i class="fas fa-user"></i> Your Name (Optional)</label>
+        <input type="text" id="issue-name" name="name" placeholder="Your name">
+      </div>
+
+      <button type="submit" class="btn btn-yellow" style="width: 100%; color: var(--charcoal);">
+        <i class="fas fa-paper-plane"></i> Report Issue
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2>Contact Steve Ano</h2>
+  <p class="section-subtitle">Get in touch with Team Ano</p>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: var(--uda-green); margin-bottom: 15px;">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <h3>Office Location</h3>
+      <p>Busali Center<br>Near Market<br>Busali Ward</p>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: var(--uda-green); margin-bottom: 15px;">
+        <i class="fas fa-phone"></i>
+      </div>
+      <h3>Phone</h3>
+      <p><a href="tel:+2547XXXXXXXX" style="color: var(--uda-green); text-decoration: none; font-weight: 700;">+254 7XX XXX XXX</a></p>
+      <p style="font-size: 0.9rem; margin-top: 10px; color: #666;">Call or WhatsApp anytime</p>
+    </div>
+
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; color: var(--uda-green); margin-bottom: 15px;">
+        <i class="fas fa-envelope"></i>
+      </div>
+      <h3>Email</h3>
+      <p><a href="mailto:steveano.busali@gmail.com" style="color: var(--uda-green); text-decoration: none;">steveano.busali@gmail.com</a></p>
+      <p style="font-size: 0.9rem; margin-top: 10px; color: #666;">Response within 24 hours</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3><i class="fas fa-heart"></i> About</h3>
+      <p>Steve Ano is committed to transforming Busali Ward through grassroots leadership and community-driven development.</p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/2547XXXXXXXX" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Steve</a></li>
+        <li><a href="#agenda">Manifesto</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="#news">News & Updates</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Manifesto PDF</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Get Involved</h3>
+      <ul>
+        <li><a href="#volunteer">Become a Volunteer</a></li>
+        <li><a href="#contact">Report an Issue</a></li>
+        <li><a href="#">Donate</a></li>
+        <li><a href="#">Share Your Story</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2027 Steve Ano for MCA Busali Ward | UDA</p>
+    <p style="margin-top: 10px; font-size: 0.85rem;">Paid for by Friends of Steve Ano | Busali First Campaign</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp-float" href="https://wa.me/2547XXXXXXXX?text=Hello%20Steve%20Ano%2C%20I%20support%20Busali%20First" target="_blank" title="Chat with Steve on WhatsApp">💬</a>
+
+<!-- MODALS FOR AGENDA DETAILS -->
+<div id="youthModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('youth')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">🏆 Youth Empowerment & Jobs</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Busali Youth Skills Hub:</strong> Carpentry, welding, tailoring, digital skills training—funded by county youth budget</li>
+      <li style="margin-bottom: 10px;"><strong>Boda Boda Saccos:</strong> Support registration, insurance, and working capital for riders</li>
+      <li style="margin-bottom: 10px;"><strong>Job Placement:</strong> Link every trained youth to county contracts and private sector opportunities</li>
+      <li style="margin-bottom: 10px;"><strong>Starter Toolkits:</strong> Free tools for youth who complete training to start their own businesses</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Launch Q3 2027 | Budget: KES 15M from county allocation</p>
+  </div>
+</div>
+
+<div id="womenModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('women')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">👩 Women Empowerment</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Market Infrastructure:</strong> Build/upgrade 10 market sheds with electricity, water taps, and solar lighting</li>
+      <li style="margin-bottom: 10px;"><strong>Table Banking SACCO:</strong> Low-interest loans for women entrepreneurs and traders</li>
+      <li style="margin-bottom: 10px;"><strong>Girls Bursaries:</strong> 500 girls in secondary school supported annually</li>
+      <li style="margin-bottom: 10px;"><strong>AGPO Priority:</strong> Women groups get first access to 30% of county government tenders</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Begin Q4 2027 | Budget: KES 20M</p>
+  </div>
+</div>
+
+<div id="agribusinessModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('agribusiness')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">🌽 Agribusiness & Farmers</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Subsidized Inputs:</strong> Seeds and fertilizer delivered on time at reduced cost</li>
+      <li style="margin-bottom: 10px;"><strong>Aggregation Center:</strong> Busali maize and dairy aggregation hub for better prices</li>
+      <li style="margin-bottom: 10px;"><strong>Value Addition Training:</strong> Postharvest processing, storage, packaging skills</li>
+      <li style="margin-bottom: 10px;"><strong>Cold Room Facility:</strong> Cooperative cold room to end post-harvest losses</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Foundation Q3 2027 | Budget: KES 25M</p>
+  </div>
+</div>
+
+<div id="educationModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('education')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">🎓 Quality Education</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Transparent Bursaries:</strong> Clear criteria, public accountability, no favoritism</li>
+      <li style="margin-bottom: 10px;"><strong>ECD Classrooms:</strong> Upgrade 15 Early Childhood Development centers with furniture and books</li>
+      <li style="margin-bottom: 10px;"><strong>School Feeding:</strong> Partner with churches and NGOs for daily meals to prevent hunger-induced dropout</li>
+      <li style="margin-bottom: 10px;"><strong>Infrastructure:</strong> Desks, toilets, labs, and learning materials in all schools</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Immediate Q1 2027 | Budget: KES 18M</p>
+  </div>
+</div>
+
+<div id="healthcareModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('healthcare')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">🏥 Affordable Healthcare</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Busali Health Center:</strong> Stock with essential drugs and maternity beds</li>
+      <li style="margin-bottom: 10px;"><strong>NHIF Enrollment:</strong> Monthly registration drives in every village (target: 5,000 families)</li>
+      <li style="margin-bottom: 10px;"><strong>Community Health Workers:</strong> Equipment and training for village health volunteers</li>
+      <li style="margin-bottom: 10px;"><strong>Dispensary Upgrades:</strong> Support for private and mission health facilities</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Begin Q2 2027 | Budget: KES 12M</p>
+  </div>
+</div>
+
+<div id="infrastructureModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('infrastructure')">✕</button>
+    <h2 style="color: var(--uda-green); margin-bottom: 15px;">🚜 Roads & Water Access</h2>
+    <h3 style="color: var(--charcoal); margin-top: 20px; margin-bottom: 10px;">The Plan:</h3>
+    <ul style="margin-left: 20px; color: #555;">
+      <li style="margin-bottom: 10px;"><strong>Year-Round Road Maintenance:</strong> Grade and drain all feeder roads—no more impassable stretches</li>
+      <li style="margin-bottom: 10px;"><strong>Boreholes:</strong> Sink 20 new boreholes in water-scarce areas</li>
+      <li style="margin-bottom: 10px;"><strong>Rainwater Tanks:</strong> Install solar-powered tanks at schools, clinics, and dry villages</li>
+      <li style="margin-bottom: 10px;"><strong>Community Taps:</strong> Public water points within walking distance of every household</li>
+    </ul>
+    <p style="margin-top: 20px; color: #666;"><strong>Timeline:</strong> Year-long Q2–Q4 2027 | Budget: KES 30M</p>
+  </div>
+</div>
+
+<script>
+// Navigation toggle
+function toggleMenu() {
+  const navMenu = document.getElementById('navMenu');
+  navMenu.classList.toggle('active');
+}
+
+function closeMenu() {
+  const navMenu = document.getElementById('navMenu');
+  navMenu.classList.remove('active');
+}
+
+// Modal functions
+function openModal(type) {
+  const modal = document.getElementById(type + 'Modal');
+  if (modal) {
+    modal.classList.add('active');
+  }
+}
+
+function closeModal(type) {
+  const modal = document.getElementById(type + 'Modal');
+  if (modal) {
+    modal.classList.remove('active');
+  }
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+  if (event.target.classList.contains('modal')) {
+    event.target.classList.remove('active');
+  }
+}
+
+// Form submissions
+function submitVolunteer(e) {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const data = Object.fromEntries(formData);
+  
+  // Send to Google Sheets via Google Form or Web Apps
+  // For now, show confirmation
+  alert(`Thank you for volunteering, ${data.name}! Steve will contact you soon.`);
+  e.target.reset();
+}
+
+function submitReport(e) {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const data = Object.fromEntries(formData);
+  
+  alert(`Your report about "${data.type}" at "${data.location}" has been sent to Team Ano. Thank you for helping us improve Busali!`);
+  e.target.reset();
+}
+
+function subscribeNewsletter(e) {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const data = Object.fromEntries(formData);
+  
+  alert(`Thanks for subscribing, ${data.email}! You'll receive updates from Team Ano.`);
+  e.target.reset();
+}
+
+// Language change
+function changeLanguage(lang) {
+  if (lang === 'sw') {
+    alert('Kiswahili version coming soon! / Toleo la Kiswahili linakuja hivi karibuni!');
+  }
+}
+
+// Countdown timer
+function updateCountdown() {
+  const electionDate = new Date('2027-08-09').getTime();
+  const now = new Date().getTime();
+  const distance = electionDate - now;
+  
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  
+  const countdownElement = document.getElementById('countdown');
+  if (countdownElement) {
+    countdownElement.textContent = days + ' Days • ' + hours + ' Hours';
+  }
+}
+
+// Update countdown every hour
+updateCountdown();
+setInterval(updateCountdown, 3600000);
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
