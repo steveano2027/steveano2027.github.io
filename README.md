@@ -46,8 +46,12 @@ Before deploying, update these placeholders in `index.html`:
 ### Optional Enhancements
 
 1. **Add Steve's Photo**:
-   - Replace the emoji `👨‍💼` in the hero section with an actual image
-   - Upload to the repo or use an external image URL
+   - Upload the photo to `assets/images/steve-hero.jpg` (recommended) or use an external image URL.
+   - Replace the hero emoji `👨‍💼` in your `index.html` hero section with a Markdown or HTML image reference. Example Markdown to place in README or other docs:
+
+     ![Person speaking into a microphone at an outdoor event](/assets/images/steve-hero.jpg)
+
+   - For better performance and responsiveness, prefer a `<picture>` element with `srcset` and WebP fallbacks in your `index.html` (see site code suggestions in the project notes).
 
 2. **Add Real Gallery Photos**:
    - Replace placeholder emojis in the gallery section with actual images from Steve's community work
